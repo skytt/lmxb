@@ -1,0 +1,90 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /* vertical-align: baseline; */
+    list-style: none;
+}
+body {
+    font-family: Arial, Helvetica,"\5FAE\8F6F\96C5\9ED1";-webkit-text-size-adjust:100%;
+    background-size: 320px;
+    color: #333;
+    font-size: 12px;
+}
+
+/*clear*/
+.cf:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+img {
+    vertical-align: middle;
+    /* 默认占位图片 见 psd/sm_290*218.png */
+    /*background: #f0f0f0 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAADaAgMAAAA59VNmAAAACVBMVEXv7+/Z2dnk5OQQ4ojgAAADyElEQVRo3u2YwW7UMBCGbUuRyJ44EMSRA5aApwg8gQ8ZK/QUkJAKT+ErnHrAPVdIPXSfEtedZDJeO4laSlu0c9lM/GX8z8T27K442tGOdrT/3N7mb3fcVZClJDjm19CSU76tYchhFRjme/L50z3zIY810HGp0Ocxy6XSY1wLMKllzDGpRaxlGkgEz4wVym/DoIwZ8tQC1rOyAWQoxbGaReNYxzGKVhRT3RZ7ltOsD7A327AXpNnRuzrAbBFzc+0bsNdh3MaPimOeuRdhPGDPEWvzmDIhfMDOMDWGkVsHDKyQ1/QCVhmhAlavYI0RdcCage4TRssUTNDUKVjGJJjgd/G0gDKmwUiAT9fDKoeZ8XqocFgmWEOYCmF9HHaIJdH6cbF8gGj4StN32mEwuIyjNlSwiOk4gq5mGPoWg6GZERMcAwqG9Wk4RtERweA+wbBQmNoUDvHJarzv51ivMJUEMwqYyRTDGxXHftwEJQzDNBz7eoiVjPeLIpSevUXjJ3nReF8oGu8yBUt7VsHSDpgxKtt64dLuXC7bloo4sSlVQpZStRxT5US35DDcCqu3Teo3ZSqXV+X6QurTOU/2ewZ831+lhQv+afjYzaiL4L/Dt0XSbJLwafQvJ3E42vKM7fRyzDwDm9RvyHzPe+/xGQpH89h97uuX5mVQs50apZzLOCZxTu3Ox/VqJqwTsq8GdGIVvJoaAGFGVEPjxsdDcNXVA4qbsCZM0jhL4jpRG33zlCRtu3BlJcquYga6PR9zsLSvWhWkUeVMlIZYS+V1Kkoj7Fc9dWHCGqeiNMLOtMtFCwVhmLBTfQfCWlGNXhUxlIbRCIvSKNN6yGGDeCkEq9v4lOTYK47tRA4z4jVe4st6lvuZonu2e3hzdHSNGK2QLKY7fjTNJ5pHtsn+p5I2TEDaWkkq686lvSB4d275WW1JQ0+YLG9AHEmeUUl7rPAKB9Ndb3iiaFNBddLRwGZ/UHp+mMq0UfbJ4TqgtI5jMM15sr+aKucPsAHztDi1i7cPMIvBDObb3+B9euCf/L6KokaJ339eQgZDa2dF3o6ZO2CkrYzR/WoVw7pR8FIPd+SlmGQ9T8OGaFb4LRh8hL+JfZ47bRm7azRxP9gnxL4uYz1i1TLWNRGzzTJmdcR6v5LCj/gWviynEAEX4ALmpxy8FU2n16LZ3YXYXXhapPloeEisTQonwdPrGJzi97PlSWOmG6LBt00YN7cNax8eg2O0x4wNTyWaOmIck0XM3OLPBPn0sfquWP/gWPWPsO7+ouknidk51jxizK/9b/kH/+n2Vvwx4MsAAAAASUVORK5CYII=') center no-repeat;*/
+    background-size: auto 100%;
+    /*默认占位图片改成纯白色图片，因为要去掉图片的边框*/
+    background: #fff url('data:image/png;base64,ZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFHUUFBQUJrQVFNQUFBQktMQWNYQUFBQUJsQk1WRVgvLy8vLy8vOVZmUFZzQUFBQUZFbEVRVlE0aldOZ0dBV2pZQlNNZ2xGQVR3QUFCWGdBQWZtbFhzY0FBQUFBU1VWT1JLNUNZSUk9') center no-repeat;
+    background-color: #fff;
+    border-color: #fff;
+    border-image-width: 0;
+    border:none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:active, a:visited {
+    color: #aaa;
+}
+.fr{
+    float: right;
+}
+.orange{
+    color: #ff7800;
+}
+.green{
+    color: #69bb00;
+}
+.blank{
+    color: #333;
+}
+.red{
+    color: #e94444;
+}
+.gray{
+    color: #999;
+}
+.text-overflow{
+    display:block;/*内联对象需加*/
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+}
+
+/*loading*/
+.loading {
+    display: block;
+    margin: auto;
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    border: 2px solid #f0f0f0;
+    border-top: 2px solid #4488e9;
+    -webkit-animation: roll 1s linear infinite;
+    animation: roll 1s linear infinite;
+}
+@-webkit-keyframes roll {
+    from { -webkit-transform: rotate(0); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes roll {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}

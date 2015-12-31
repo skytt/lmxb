@@ -1,0 +1,54 @@
+.front-header .header{position:relative;height:44px;line-height:44px;background:#4488e9}
+.front-header .header h1{text-align:left;line-height:44px;font-size:20px;color:#fff;font-weight:normal}
+.front-header .header img{background:0;height:44px;margin-left:10px;}
+.front-header .header .users{float:right;height:44px}
+.front-header .header .users img{background:0;height:30px;margin-right:10px;}
+
+
+.main h2 {
+	font-size: 16px;
+	font-weight: 100;
+	height: 20px;
+	line-height: 20px;
+	margin: 30px 15px 10px 15px;
+}
+
+.main h2.left {
+	padding-left: 8px;
+	background: url(../images/tag.png) no-repeat left center;
+}
+
+
+.main p {
+	font-size: 14px;
+	margin: 10px 15px;
+}
+
+.main .banner{
+	width: 100%;
+	height: auto;
+}
+.main .banner img{
+	width: 100%;
+	display:block;
+	height: auto;
+	text-align:center;
+	margin:0 auto ;
+	max-width: 720px;
+}
+
+
+.front-nav{padding:7px 10px 7px;margin-right:0}
+.front-nav a{display:block;float:left;width:20%;height:30px;line-height:30px;font-size:17px;text-align:center;position:relative;color:#4488e9}
+.front-nav .hide li:nth-child(n+11){display:none}
+.front-nav .nav-icon.nav-hot a:after{background-position:0 0}
+.front-nav .nav-icon.nav-jian a:after{background-position:-21px 0}
+.front-nav .nav-icon.more{position:relative}
+.front-nav .nav-icon.more a:after{margin-left:5px;background:0;content:"";position:absolute;width:3px;height:3px;top:13px;border:2px solid;border-color:#999 #999 transparent transparent;-webkit-transform:rotate(-45deg)}
+.front-nav .hide .nav-icon.more a:after{top:8px;border-color:transparent transparent #999 #999}
+
+.footer-nav a{display:block;float:left;width:16.6%;height:36px;line-height:30px;font-size:14px;text-align:center}
+.footer-nav a:active,.footer-nav a:visited{color:#333}
+.footer{padding:15px;text-align:center;background:#fff}
+.footer h3{font-size:14px;font-weight:normal;line-height:30px}
+.footer p{margin:9px;line-height:17px;color:#c1c1c1}
